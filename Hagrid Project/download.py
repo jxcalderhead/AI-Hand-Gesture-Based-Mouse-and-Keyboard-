@@ -38,6 +38,8 @@ urls = {
     
     
     "hands_heart2": f"{v2_url}hagrid_v2_zip/hands_heart2.zip",
+    
+    
     "little_finger": f"{v2_url}hagrid_v2_zip/little_finger.zip",
     "middle_finger": f"{v2_url}hagrid_v2_zip/middle_finger.zip",
     "take_picture": f"{v2_url}hagrid_v2_zip/take_picture.zip",
@@ -50,7 +52,16 @@ urls = {
     
 }
 
-'''
+GESTURES = (
+    "hand_heart",
+    "hands_heart2",
+    "little_finger",
+    "middle_finger",
+    "take_picture",
+    "three_gun",
+    "thumb_index",
+    "thumb_index2",
+    "no_gesture",
     "call",
     "dislike",
     "fist",
@@ -76,19 +87,6 @@ urls = {
     "three3",
     "timeout",
     "xsign",
-
-'''
-
-GESTURES = (
-    "hand_heart",
-    "hands_heart2",
-    "little_finger",
-    "middle_finger",
-    "take_picture",
-    "three_gun",
-    "thumb_index",
-    "thumb_index2",
-    "no_gesture",
 )
 
 DATASET = os.path.expanduser("./hagrid/dataset/")
